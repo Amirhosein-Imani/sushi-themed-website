@@ -55,3 +55,10 @@
     object-fit: contain;
     margin-left: 32px;
 }
+.about-us__content{
+    padding: 64px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
