@@ -54,3 +54,32 @@
     background-color: #fff;
     color: var(--primary-color);
 }
+.popular-foods__catalogue{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 64px;
+    gap: 56px;
+}
+.popular-foods__button{
+    margin: 80px auto 0;
+    padding: 20px 30px;
+    width: fit-content;
+    font-size: 18px;
+    font-family: var(--plus-jakarta-sans);
+    line-height: 23px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: var(--secondary-color);
+    border-radius: 64px;
+    cursor: pointer;
+}
+.popular-foods__button img{
+    margin-left: 21px;
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
