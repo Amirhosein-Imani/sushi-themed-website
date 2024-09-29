@@ -5,14 +5,14 @@ import sushi12 from '../assets/sushi-12.png'
 import sushi11 from '../assets/sushi-11.png'
 import sushi10 from '../assets/sushi-10.png'
 
-import AOS from "aos";
-import "aos/dist/aos.css";
+// Load AOS JS and initialize
+const aosScript = document.createElement('script');
+aosScript.src = 'https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js';
+aosScript.onload = () => {
+  AOS.init({offset:100,duration:1000});
+};
+document.head.appendChild(aosScript);
 
-// init AOS animation
-AOS.init({
-    duration: 1000,
-    offset: 100,
-});
 
 const trendingSushis = [
     'Make Sushi',
